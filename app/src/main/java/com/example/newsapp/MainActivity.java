@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements SelectListner, Vi
     RecyclerView recyclerView;
     CustomAdapter adapter;
     ProgressDialog dialog;
-    Button b1,b2,b3,b4,b5,b6,b7;
+    Button b1,b2,b3,b4,b5,b6,b7,burl;
     SearchView searchView;
     
 

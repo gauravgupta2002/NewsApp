@@ -76,6 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/text_detail_detail"
+                android:layout_margin="6dp"
                 android:textSize="22sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="8dp">
@@ -88,9 +89,22 @@
                 android:id="@+id/text_detail_content"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                android:maxLength="100">
 
             </TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_detail_url"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:text="Full Story Here">
+
+            </Button>
+
 
         </LinearLayout>
     </ScrollView>
